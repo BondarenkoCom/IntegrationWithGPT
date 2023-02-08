@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="TrelloNet" Version="0.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JsonReader\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
